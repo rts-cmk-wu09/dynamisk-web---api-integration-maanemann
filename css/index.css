@@ -1,0 +1,22 @@
+/*
+   --- POKEMON CONTAINER --- */
+
+#pokemons {
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    justify-content: left;
+    gap: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+#pokemons > * {
+    width: 10rem;
+    height: 100%;
+    background-color: gray;
+    box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.33);
+}
+#pokemons figure img {
+    width: 100%;
+    height: auto;
+}
