@@ -15,7 +15,7 @@ fetch('https://pokeapi.co/api/v2/pokemon')
             //     ;
             pokemons.innerHTML += `
                 <figure>
-                    <a href="html/details.html">
+                    <a href="html/details.html?name=${pokemon.name}">
                         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.url.replace('https://pokeapi.co/api/v2/pokemon/','').replace('/','')}.png" alt="This should be an image of a Pokémon">
                         <h2>
                             ${pokemon.name}

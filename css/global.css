@@ -1,28 +1,38 @@
 /*
    --- GLOBAL --- */
 
-   @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Ubuntu&display=swap');
-   /* font-family: 'Eagle Lake', cursive;
-   font-family: 'Ubuntu', sans-serif; */
-   * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-   }
-   img {
-       display: block;
-   }
-   html {
-       background-color: blueviolet;
-   }
-   a {
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Ubuntu&display=swap');
+/* font-family: 'Eagle Lake', cursive;
+font-family: 'Ubuntu', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+html {
+    background-color: blueviolet;
+}
+body {
+    margin: 2.5vw auto;
+    width: 95vw;
+    max-width: 1440px;
+    padding: 2.5vw;
+    background-color: darkgray;
+}
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    font-family: 'Eagle Lake', cursive;
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+h2 {
+    margin: .7rem;
+}
+a {
     color: lightpink;
     text-decoration: none;
-   }
-   body {
-       margin: 0 auto;
-       width: 95vw;
-       max-width: 1440px;
-       padding: 2.5vw;
-       background-color: darkgray;
-   }
+    }

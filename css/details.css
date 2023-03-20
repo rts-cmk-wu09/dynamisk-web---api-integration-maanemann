@@ -1,0 +1,15 @@
+body {
+    width: 50vw;
+    padding-bottom: 5vw;
+}
+main {
+    margin: 0 auto;
+}
+main > * {
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+.imgBox {
+    display: flex;
+}

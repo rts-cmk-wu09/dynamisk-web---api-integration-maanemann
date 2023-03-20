@@ -1,16 +1,6 @@
 /*
    --- POKEMON CONTAINER --- */
 
-h1 {
-    text-align: center;
-    color: darkslategrey;
-    font-family: 'Eagle Lake', cursive;
-    font-size: 3rem;
-    margin: 3rem 0;
-}
-h2 {
-    margin: .7rem;
-}
 #pokemons {
     margin: 0 auto;
     display: grid;
@@ -24,6 +14,7 @@ h2 {
     width: 10rem;
     height: 100%;
     background-color: gray;
+    box-shadow: 0 1rem 0 rgba(0, 0, 0, 0.33);
 }
 #pokemons figure img {
     width: 100%;
